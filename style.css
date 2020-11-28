@@ -1,0 +1,47 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background: url("splash.png");
+  background-repeat: repeat;
+  height: 50px;
+}
+
+.main{
+  background:#8000ff;
+  width: 500 px;
+  height: 200px;
+  margin: 200px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.YearUp{
+  background:#8000ff;
+  color: white;
+  padding: 15px 20px;
+  width: 100px;
+  font-weight: bold;
+  position:absolute;
+  top: -15px;
+  left: 40%;
+  text-shadow: 2px 2px 5px red;
+  margin-top: 100px;
+  
+  
+  
+}
+
+.digitalClock{
+  background:#bf80ff;
+  text-align: center;
+  font-size: 60px;
+  height: 100%;
+  padding-top: 30px;
+  border-radius: 5px;
+  
+  
+}
