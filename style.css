@@ -1,9 +1,6 @@
 * {
   padding:0;
   margin: 0;
-  box-sizing:border-box;
-  
-  
 }
 
 body{
@@ -46,8 +43,4 @@ body{
   font-size: 200px;
   font-family: 'impact', cursive;
   height: 100%;
-  padding-top: 30px;
-  border-radius: 5px;
-  
-
 }
