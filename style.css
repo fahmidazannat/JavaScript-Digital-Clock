@@ -2,16 +2,18 @@
   padding:0;
   margin: 0;
   box-sizing:border-box;
+  
+  
 }
 
 body{
-  background: url("splash.png");
+  background: url("background.png");
   background-repeat: repeat;
   height: 50px;
 }
 
 .main{
-  background:#8000ff;
+  
   width: 500 px;
   height: 200px;
   margin: 200px auto;
@@ -20,7 +22,7 @@ body{
 }
 
 .YearUp{
-  background:#8000ff;
+  
   color: white;
   padding: 15px 20px;
   width: 100px;
@@ -38,12 +40,12 @@ body{
 }
 
 .digitalClock{
-  background:#bf80ff;
+  
   text-align: center;
   font-size: 60px;
   height: 100%;
   padding-top: 30px;
   border-radius: 5px;
   
-  
+
 }
