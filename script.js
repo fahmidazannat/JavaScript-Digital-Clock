@@ -5,14 +5,17 @@ function digitalClock(){
   var sec = fullDate.getSeconds();
 
   if (hr >= 12) { 
-     var period = "PM"; 
+      period = " PM"; 
     } 
-  if (hr < 12) {  
-    var period = "AM"; 
-    } 
+  else  {  
+     period = " AM"; 
+  }
+  if (hr == 0 ) {
+    hr = 12
+  }
 
   document.getElementById("hr").innerHTML = hr;
-  document.getElementById("min").innerHTML = ":"+ min;document.getElementById("sec").innerHTML =":"+ sec + period;
+  document.getElementById("min").innerHTML = " : "+ min;document.getElementById("sec").innerHTML =" : "+ sec + period;
 }
 
 setInterval(digitalClock, 100)
