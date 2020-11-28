@@ -23,14 +23,13 @@ body{
 
 .YearUp{
   
-  color: white;
+  color: black;
   padding: 15px 20px;
   width: 100px;
   font-weight: bold;
   position:absolute;
   top: -15px;
   left: 40%;
-  text-shadow: 2px 2px 5px red;
   margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
@@ -42,7 +41,8 @@ body{
 .digitalClock{
   
   text-align: center;
-  font-size: 60px;
+  font-size: 100px;
+  font-family: 'Teko', sans-serif;
   height: 100%;
   padding-top: 30px;
   border-radius: 5px;
